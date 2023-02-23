@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration (Frase inicial del código Firebase de interés )
+      // Agrega aquí 
+        const firebaseConfig = {
+        apiKey: "AIzaSyCyru1NNXU7AFX24oaYgiAH5FLeEmqvPtk",
+        authDomain: "pelota-d66a4.firebaseapp.com",
+        databaseURL: "https://pelota-d66a4-default-rtdb.firebaseio.com",
+        projectId: "pelota-d66a4",
+        storageBucket: "pelota-d66a4.appspot.com",
+        messagingSenderId: "719719457310",
+        appId: "1:719719457310:web:b7c3478769408086bc440f"
+      };
+      // Initialize Firebase (Frase final del código Firebase de interés)
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
